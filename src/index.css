@@ -1,0 +1,99 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	margin: 0;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto",
+		"Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
+		"Helvetica Neue", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+	width: 0px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgb(235, 233, 233);
+}
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+		monospace;
+}
+
+.box-shadow {
+	box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px,
+		rgba(17, 17, 26, 0.05) 0px 8px 32px;
+}
+.box-shadow2 {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box-shadow3 {
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+		rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+.box-shadow4 {
+	box-shadow: rgba(200, 142, 253, 0.25) 0px 30px 60px -12px inset,
+		rgba(200, 142, 253, 0.25) 0px 18px 36px -18px inset;
+}
+.box-shadow5 {
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+.box-shadow6 {
+	box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+.my-text-shadow {
+	text-shadow: 3px 3px 5px #9e9e9eaf;
+}
+.my-table-row:hover {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.gradient-right {
+	background-image: linear-gradient(
+		302.85deg,
+		rgba(255, 255, 255, 0.8) 2.27%,
+		rgba(168, 154, 255, 0.260833) 98.52%
+	);
+}
+.gradient-bottom {
+	background-image: linear-gradient(
+		0deg,
+		rgba(255, 255, 255, 0.8) 2.27%,
+		rgba(168, 154, 255, 0.260833) 98.52%
+	);
+}
+.gradient-top {
+	background-image: linear-gradient(
+		180deg,
+		rgba(255, 255, 255, 0.8) 2.27%,
+		rgba(168, 154, 255, 0.260833) 98.52%
+	);
+}
+
+/* sticky section style*/
+.profile section,
+.home-page-sticky {
+	overflow: hidden;
+	height: 85vh;
+}
+.profile section:hover,
+.home-page-sticky:hover {
+	overflow: auto;
+}
+
+@layer base {
+	input[type="number"]::-webkit-outer-spin-button,
+	input[type="number"]::-webkit-inner-spin-button,
+	input[type="number"] {
+		-webkit-appearance: none;
+		margin: 0;
+		-moz-appearance: textfield !important;
+	}
+}
