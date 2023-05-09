@@ -2,7 +2,7 @@ import React, { useRef, useEffect } from "react";
 import "./MapSvg.css";
 import * as d3 from "d3-selection";
 import tip from "d3-tip";
-import { districtNameList, districtEnergyList } from "../energyInfo";
+import { districtNameList, districtDistanceList, districtEVList } from "../energyInfo";
 
 const MapSvg = ({
 	selectedDistrict,
@@ -37,15 +37,15 @@ const MapSvg = ({
 				)
 				.offset([20, 0]).html(`<div class='tooltip-info'>
 							<p class='district'>${districtNameList[i]}</p>
-							<p class='my-flex'><span class='energy'>Energy Produced</span><span class='value'>${
-								districtEnergyList[i]
-							} MW</span></p>
+							<p class='my-flex'><span class='energy'>No. of EVs</span><span class='value'>${
+								districtEVList[i]
+							}</span></p>
 							<p class="${
 								isAnalytic === true ? "show my-flex" : "hide"
-							}"><span class='energy'>Solar Pumps </span><span class="value">${districtEnergyList[i]/4} MW</span></p>
+							}"><span class='energy'>No. of 2W </span><span class="value">${(districtEVList[i]/3).toFixed(0)}</span></p>
 							<p class="${
 								isAnalytic === true ? "show my-flex" : "hide"
-							}"><span class='energy'>Others</span><span class="value">${districtEnergyList[i] - (districtEnergyList[i]/4)} MW</span></p>
+							}"><span class='energy'>Others</span><span class="value">${districtEVList[i] - (districtEVList[i]/3).toFixed(0)}</span></p>
 						</div>`);
 
 			d3.select(tooltipRefs[i].current).call(tipObject);

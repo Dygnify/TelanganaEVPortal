@@ -1,5 +1,5 @@
 import React from 'react';
-import galleryImg1 from "../../images/pm-kusum-scheme.jpg";
+import galleryImg1 from "../../images/FAME.jpg";
 import galleryImg2 from "../../images/TSREDCO-Logo.svg";
 
 const RightProfilePanel = () => {
@@ -11,8 +11,7 @@ const RightProfilePanel = () => {
 			<div className="">
 				<div className=" border border-[#cbeaff59]    p-2 pt-1 cursor-pointer mt-4 box-shadow2">
 					<p className="text-[12px] mt-1 text-justify">
-						Pradhan Mantri Kisan Urja Suraksha evam Utthaan
-						Mahabhiyan (PM-KUSUM)
+					Faster Adoption and Manufacturing of Electric Vehicles - FAME II (GOI)
 					</p>
 					<img
 						src={galleryImg1}

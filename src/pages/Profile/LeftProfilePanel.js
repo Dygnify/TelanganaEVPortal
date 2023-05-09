@@ -13,7 +13,7 @@ const LeftProfilePanel = () => {
 					/>
 				</div>
 				<p className="text-xs font-semibold text-slate-500 drop-shadow-lg">
-					C. Narayana Reddy
+				ABC Fleet Services
 				</p>
 			</div>
 			<div className="mt-8">
@@ -25,7 +25,7 @@ const LeftProfilePanel = () => {
 						<span>District:</span> <span>Mulugu</span>
 					</p>
 					<p className="flex justify-between">
-						<span>Email:</span> <span>cnreddy@gmail.com</span>
+						<span>Email:</span> <span>contact@abc.com</span>
 					</p>
 					<p className="flex justify-between">
 						<span>Phone:</span> <span>+91 9860431431</span>
@@ -37,20 +37,15 @@ const LeftProfilePanel = () => {
 					Profile:
 				</p>
 				<p className="text-[12px] text-justify">
-					Mr. C. Narayana Reddy is a farmer who lives in a small
-					village in Mulugu district of Telangana. He owns around 4
-					acres of land which he inherited from his father. Narayana
-					Reddy primarily grows paddy and cotton crops, which are
-					well-suited to the fertile soil in the region.
+				ABC Fleet Services is a fleet operator in Telangana that provides transportation services for both cargo and passengers using electric 3-wheelers. The company has a fleet of 9 vehicles, consisting of 3 cargo 3-wheelers and 6 passenger 3-wheelers. ABC Fleet Services has been in operation for several years, but only recently switched to an all-electric fleet in 2020.
+
+ABC Fleet Services financed the purchase of its electric vehicles through bank loans. Despite the higher upfront cost of electric vehicles compared to their petrol or diesel counterparts, the company recognized the long-term savings potential and made the investment in electric vehicles.
 				</p>
 				<br />
 				<p className="text-[12px] text-justify">
-					He has installed a solar pump to draw water from his well
-					for irrigation purposes, and has also installed a solar
-					rooftop system to generate electricity for his home and
-					farm. The solar pump and rooftop system were installed in
-					2019, with the help of a government subsidy program aimed at
-					promoting renewable energy adoption in rural areas.
+				Since ABC Fleet Services primarily operates within the city, the use of electric 3-wheelers is a convenient and practical option. Electric 3-wheelers are ideal for city transport due to their small size and maneuverability, which makes them well-suited for navigating through narrow city streets and congested traffic.
+
+By transitioning to an all-electric fleet, ABC Fleet Services has significantly reduced its carbon footprint and helped to promote sustainability. The company recognizes the importance of reducing emissions and promoting sustainable practices, and is proud to be a leader in the industry.
 				</p>
 			</div>
 		</section>

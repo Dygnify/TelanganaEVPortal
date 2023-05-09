@@ -19,7 +19,7 @@ const Paths = () => {
 					<Route path="search" element={<Search />} />
 					<Route path="analytic" element={<Analytic />} />
 					<Route path="projects" element={<Projects />} />
-					<Route path="myDevices" element={<MyDevices />} />
+					<Route path="myEVs" element={<MyDevices />} />
 					<Route path="profile" element={<Profile />} />
 					<Route path="signIn" element={<SignIn />} />
 				</Route>

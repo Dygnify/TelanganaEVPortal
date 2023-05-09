@@ -5,7 +5,8 @@ import energyMap from "../../utilities/energyInfo";
 
 const LandingPage = () => {
 	const [district, setDistrict] = useState("Telangana State");
-	const [energy, setEnergy] = useState(energyMap.get("Telangana State"));
+	const [energy, setEnergy] = useState(energyMap.get("Telangana State").distance);
+	const [ev, setEV] = useState(energyMap.get("Telangana State").ev);
 	return (
 		<div className="">
 			<h2
@@ -14,17 +15,18 @@ const LandingPage = () => {
 				data-aos-anchor="#example-anchor"
 				data-aos-duration="1000"
 			>
-				Telangana Solar Energy profile
+				Telangana Green Mobility Profile
 			</h2>
 			<div className="flex gap-8">
 				<div className=" box-shadow4 w-2/3  flex justify-center items-center rounded-md  bg-[#f8fafa] border border-[#ccc2ff77] relative home-page-sticky">
 					<Map
 						setDistrict={setDistrict}
 						setEnergy={setEnergy}
+						setEV={setEV}
 						width="w-[75%]"
 					/>
 				</div>
-				<SelectedDistrict district={district} energy={energy} />
+				<SelectedDistrict district={district} energy={energy} ev={ev}/>
 			</div>
 		</div>
 	);

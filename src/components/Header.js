@@ -50,10 +50,10 @@ const Header = () => {
 					<span></span>
 				) : (
 					<NavLink
-						to="/myDevices"
+						to="/myEVs"
 						className={({ isActive }) => (isActive ? "active" : "")}
 					>
-						<li>My Devices</li>
+						<li>My EVs</li>
 					</NavLink>
 				)}
 				{!user ? (

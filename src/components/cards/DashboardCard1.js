@@ -3,10 +3,13 @@ import iconImg from "../../images/renewable-energy.jpg";
 import DashboardCardChart from "../charts/DashboardCharts/DashboardCardChart";
 
 const demoInfo = [
-	{ text: "Number of solar utilities used", energy: "" },
-	{ text: "Total Solar Energy Produced by equipments", energy: "" },
-	{ text: "Contribution of Unused Energy to Peers", energy: "" },
-	{ text: "Financial repayments of Solar Equipment Loans", energy: "" },
+	{ text: "Number of Vehicles", energy: "" },
+	{ text: "Total green km traversed", energy: "" },
+	{ text: "GHG emissions prevented", energy: "" },
+	{ text: "Driving behaviour score", energy: "" },
+	{ text: "Livelihood generated", energy: "" },
+	{ text: "Jobs generated", energy: "" },
+	{ text: "Women employed", energy: "" },
 ];
 
 const DashboardCard1 = () => {

@@ -18,7 +18,7 @@ const SiteConfig = () => {
 				</div>
 				<div className="flex flex-col text-right">
 					<span>Capacity</span>
-					<span>5.00kWp</span>
+					<span>6.00kWh</span>
 				</div>
 			</div>
 			<div className="flex  justify-between rounded-[5px] p-2 bg-[#F3FFFE]  w-[140px] box-shadow6  ">
@@ -27,7 +27,7 @@ const SiteConfig = () => {
 				</div>
 				<div className="flex flex-col text-right">
 					<span>Units</span>
-					<span>1/2</span>
+					<span>8/8</span>
 				</div>
 			</div>
 			<div className="flex  justify-between rounded-[5px] p-2 bg-[#F3FFFE]  w-[140px] box-shadow6  ">
@@ -39,8 +39,8 @@ const SiteConfig = () => {
 					/>
 				</div>
 				<div className="flex flex-col text-right">
-					<span>Inverter</span>
-					<span>1/1</span>
+					<span>GPS</span>
+					<span>6/8</span>
 				</div>
 			</div>
 			<div className="flex justify-between rounded-[5px] p-2 bg-[#F3FFFE]  w-[140px] box-shadow6  ">
@@ -48,8 +48,8 @@ const SiteConfig = () => {
 					<img src={meterImg} alt="" className="mix-blend-multiply" />
 				</div>
 				<div className="flex flex-col text-right">
-					<span>Meter</span>
-					<span>1/1</span>
+					<span>Battery</span>
+					<span>6/8</span>
 				</div>
 			</div>
 			<div className="flex justify-between rounded-[5px] p-2 bg-[#F3FFFE]  w-[140px] box-shadow6  ">

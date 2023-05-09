@@ -70,7 +70,7 @@ const MyDevices = () => {
 			<section className=" space-y-12">
 				<div className="w-full  rounded-md  ">
 					<h2 className="text-[1.4375rem] lg:text-[2rem] font-semibold text-slate-500  drop-shadow-lg px-2">
-						Solar Pump
+						Electric 3W - Cargo
 					</h2>
 					<div className="mt-4">
 						<h3 className="font-semibold text-xl text-slate-500  drop-shadow-lg px-2 text-center">
@@ -92,7 +92,7 @@ const MyDevices = () => {
 				</div>
 				<div className="w-full  rounded-md">
 					<h2 className=" text-[1.4375rem] lg:text-[2rem] font-semibold text-slate-500  drop-shadow-lg px-2">
-						Solar Rooftop
+					Electric 3W - Passenger
 					</h2>
 					<div className="mt-4">
 						<h3 className="font-semibold text-xl text-slate-500  drop-shadow-lg px-2 text-center">

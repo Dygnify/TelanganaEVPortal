@@ -18,7 +18,7 @@ const DashboardCard3 = () => {
 			<div className="box-shadow4 gradient-right border border-[#ccc2ff8f] w-4/5 mx-auto flex flex-col  rounded-md  gap-4 p-4">
 				<div className="flex ">
 					<p className="w-[35%] text-center text-[#475569] font-semibold text-[18px] drop-shadow-lg">
-						Solar Roof Top
+						Electric 3W - Passenger
 					</p>
 					<p className="w-[60%] text-center text-[#475569] font-semibold text-[18px] drop-shadow-lg"></p>
 				</div>
