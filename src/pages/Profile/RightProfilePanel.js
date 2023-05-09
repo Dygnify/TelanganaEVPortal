@@ -1,6 +1,6 @@
 import React from 'react';
 import galleryImg1 from "../../images/FAME.jpg";
-import galleryImg2 from "../../images/TSREDCO-Logo.svg";
+import galleryImg2 from "../../images/telangana-state.png";
 
 const RightProfilePanel = () => {
     return (
@@ -21,9 +21,7 @@ const RightProfilePanel = () => {
 				</div>
 				<div className=" border border-[#cbeaff59]    p-2 pt-1 cursor-pointer mt-4 box-shadow2">
 					<p className="text-[12px] mt-1 text-justify">
-						తెలంగాణ రాష్ట్ర పునరుద్ధరణీయ ఇంధన వనరుల అభివృద్ధి సంస్థ
-						లిమిటెడ్ (TSREDCO) -Implementation of Solar Rooftop
-						plants subsidy payments under GCRT Phase II
+						Telangana Electric Vehicle & Energy Storage Policy
 					</p>
 					<img
 						src={galleryImg2}

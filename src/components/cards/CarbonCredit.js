@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import carbon_credit from "../../images/carbon_credit.png";
 import Button from "../../components/Button/Button";
-import rupeeIcon from "../../images/rupee.jpg";
 import "./CarbonCredit.css";
 import ConvertCarbonCredit from "./ConvertCarbonCredit";
 import CreditConversionMsg from "./CreditConversionMsg";

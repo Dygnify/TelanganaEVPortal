@@ -27,7 +27,7 @@ const DashboardChart2 = () => {
 			type: "gradient",
 			gradient: {
 				shade: "dark",
-				gradientToColors: ["red"],
+				gradientToColors: ["#008000"],
 				shadeIntensity: 1,
 				type: "horizontal",
 				opacityFrom: 1,
@@ -70,14 +70,14 @@ const DashboardChart2 = () => {
 				left: -10,
 			},
 		},
-		colors: ["#fcb045", "#ff6464"], // custom color palett
+		colors: ["#008000", "#008000"], // custom color palett
 	};
 
 	const series = [
 		{
 			name: "Energy Consumed",
 			
-			data: [52, 48, 55, 51, 65],
+			data: [3.1505, 3.1506, 3.1505, 3.1506, 3.1507],
 		},
 	];
 const getTotalEnergyProduced = () => {
@@ -96,9 +96,9 @@ const getTotalEnergyProduced = () => {
 		>
 			<ReactApexChart options={options} series={series} type="area" />
 			<div className="absolute top-[10px] left-[12px] font-semibold text-xl text-font-semibold text-slate-500 drop-shadow-lg flex flex-col gap-4">
-				<p>Solar Energy Consumed</p>
-				<p className="text-[#f7974e] text-[32px] font-bold flex justify-center -mt-1">
-					{getTotalEnergyProduced()} KW
+				<p>GHG emissions prevented</p>
+				<p className="text-[#008000] text-[32px] font-bold flex justify-center -mt-1">
+					{getTotalEnergyProduced()} t
 				</p>
 			</div>
 		</div>

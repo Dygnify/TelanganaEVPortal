@@ -1,14 +1,14 @@
 import React from "react";
-import demoImg from "../../images/solar-pump.png";
-import iconImg from "../../images/renewable-energy.jpg";
+import demoImg from "../../images/e3wCargo.jpg";
+import iconImg from "../../images/distance_icon.png";
 import iconImg2 from "../../images/energy_consumed.jpeg";
 import iconImg3 from "../../images/co2 reduction.png";
 import iconImg4 from "../../images/Sustainability Score.png";
 
 const demoInfo = [
-	{ text: "Energy produced", energy: "354 KW", img: iconImg },
-	{ text: "Energy consumed", energy: "296 KW", img: iconImg2 },
-	{ text: "GHG emissions reduced", energy: "444 Mt", img: iconImg3 },
+	{ text: "Distance Traversed", energy: "35400 km", img: iconImg },
+	{ text: "Energy consumed", energy: "96 KW", img: iconImg2 },
+	{ text: "GHG emissions reduced", energy: "444 t", img: iconImg3 },
 	{ text: "Sustainability score", energy: "126 GS", img: iconImg4 },
 ];
 
@@ -41,7 +41,7 @@ const DashboardCard2 = () => {
 										<img
 											src={item.img}
 											alt=""
-											className="w-full rounded-full"
+											className="w-full"
 										/>
 									</div>
 									<span>{item.text}</span>

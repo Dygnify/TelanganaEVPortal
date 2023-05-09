@@ -1,5 +1,5 @@
 import React from "react";
-import solar_pump from "../../images/solar-pump.png";
+import solar_pump from "../../images/e3wCargo.jpg";
 import "./Projects.css";
 import CarbonCredit from "../../components/cards/CarbonCredit";
 

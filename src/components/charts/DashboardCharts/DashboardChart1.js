@@ -27,7 +27,7 @@ const DashboardChart1 = () => {
 			type: "gradient",
 			gradient: {
 				shade: "dark",
-				gradientToColors: [ "#008000"],
+				gradientToColors: [ "#5ac5fa"],
 				shadeIntensity: 1,
 				type: "horizontal",
 				opacityFrom: 1,
@@ -70,12 +70,13 @@ const DashboardChart1 = () => {
 				left: -10,
 			},
 		},
+		colors: ["#5ac5fa", "#5ac5fa"],
 	};
 
 	const series = [
 		{
-			name: "Energy Produced",
-			data: [90, 95, 95, 98, 99],
+			name: "Distance traversed",
+			data: [19094, 19095, 19094, 19095, 19096],
 		},
 		
 	];
@@ -96,9 +97,9 @@ const DashboardChart1 = () => {
 		>
 			<ReactApexChart options={options} series={series} type="area" />
 			<div className="absolute top-[10px] left-[12px] font-semibold text-xl text-font-semibold text-slate-500 drop-shadow-lg flex flex-col gap-4">
-				<p>Solar Energy Produced</p>
+				<p>Green km run</p>
 				<p className="text-[#04796f] text-[32px] font-bold flex justify-center -mt-1">
-					{getTotalEnergyProduced()} KW
+					{getTotalEnergyProduced()}
 				</p>
 			</div>
 		</div>
