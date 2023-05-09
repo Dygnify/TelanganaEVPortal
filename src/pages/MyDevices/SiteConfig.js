@@ -1,9 +1,9 @@
 import React from "react";
-import capacityImg from "../../images/devices/capacity.png";
-import unitImg from "../../images/devices/units.png";
+import capacityImg from "../../images/devices/totalEnergy.png";
+import unitImg from "../../images/devices/ev.png";
 import inverterImg from "../../images/devices/inverter.png";
 import co2Img from "../../images/devices/co2 saved.png";
-import meterImg from "../../images/devices/meter.png";
+import battery from "../../images/devices/battery.png";
 
 const SiteConfig = () => {
 	return (
@@ -45,14 +45,14 @@ const SiteConfig = () => {
 			</div>
 			<div className="flex justify-between rounded-[5px] p-2 bg-[#F3FFFE]  w-[140px] box-shadow6  ">
 				<div>
-					<img src={meterImg} alt="" className="mix-blend-multiply" />
+					<img src={battery} alt="" className="mix-blend-multiply" />
 				</div>
 				<div className="flex flex-col text-right">
 					<span>Battery</span>
 					<span>6/8</span>
 				</div>
 			</div>
-			<div className="flex justify-between rounded-[5px] p-2 bg-[#F3FFFE]  w-[140px] box-shadow6  ">
+			<div className="flex justify-between rounded-[5px] p-2 bg-[#F3FFFE]  w-[141px] box-shadow6  ">
 				<div>
 					<img src={co2Img} alt="" className="mix-blend-multiply" />
 				</div>

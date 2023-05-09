@@ -1,5 +1,6 @@
 import React from "react";
-import energy_img from "../images/energy.png";
+import energy_img from "../images/ev.png";
+import distance_img from "../images/distance.png";
 import co2_img from "../images/CO2.png";
 
 const SelectedDistrict = ({ district, energy, ev }) => {
@@ -19,14 +20,14 @@ const SelectedDistrict = ({ district, energy, ev }) => {
 						Number of EVs
 					</p>
 					<div className="flex items-center mt-2 gap-6 p-2  rounded-[100px] mx-4 gradient-right border border-slate-100">
-						<div className="w-16 h-16 border border-[#FE9710] rounded-full p-[2px]">
+						<div className="w-16 h-16 border border-[#3aaf03] rounded-full p-[5px]">
 							<img
 								src={energy_img}
 								className="w-full h-full rounded-full"
 								alt=""
 							/>
 						</div>
-						<p className="text-2xl text-[#ff9100ef] drop-shadow-lg">
+						<p className="text-2xl text-[#ff9100ef] drop-shadow-lg p-[5px]">
 							{ev}
 						</p>
 					</div>
@@ -38,7 +39,7 @@ const SelectedDistrict = ({ district, energy, ev }) => {
 					<div className="flex items-center mt-2 gap-6 p-2  rounded-[100px] mx-4 gradient-right border border-slate-100">
 						<div className="w-16 h-16 border border-[#FE9710] rounded-full p-[2px]">
 							<img
-								src={energy_img}
+								src={distance_img}
 								className="w-full h-full rounded-full"
 								alt=""
 							/>
@@ -61,7 +62,7 @@ const SelectedDistrict = ({ district, energy, ev }) => {
 							/>
 						</div>
 						<p className="text-2xl text-[#ff9100ef] drop-shadow-lg">
-							{(energy * 0.000000000165).toFixed(4)} Mt
+							{(energy * 0.000165).toFixed(0)} t
 						</p>
 					</div>
 				</div>

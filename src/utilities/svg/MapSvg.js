@@ -42,7 +42,7 @@ const MapSvg = ({
 							}</span></p>
 							<p class="${
 								isAnalytic === true ? "show my-flex" : "hide"
-							}"><span class='energy'>No. of 2W </span><span class="value">${(districtEVList[i]/3).toFixed(0)}</span></p>
+							}"><span class='energy'>No. of E2W </span><span class="value">${(districtEVList[i]/3).toFixed(0)}</span></p>
 							<p class="${
 								isAnalytic === true ? "show my-flex" : "hide"
 							}"><span class='energy'>Others</span><span class="value">${districtEVList[i] - (districtEVList[i]/3).toFixed(0)}</span></p>

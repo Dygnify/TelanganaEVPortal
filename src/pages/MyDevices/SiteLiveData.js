@@ -2,7 +2,7 @@ import React from "react";
 import dailyEnergy from "../../images/devices/dailyEnergy.png";
 import totalEnergy from "../../images/devices/totalEnergy.png";
 import outputActivePower from "../../images/devices/outputActivePower.png";
-import specific_field from "../../images/devices/specific field.png";
+import specific_field from "../../images/devices/BCNC.png";
 import cufImg from "../../images/devices/cuf.png";
 
 const SiteLiveData = () => {
