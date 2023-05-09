@@ -8,11 +8,11 @@ const Projects = () => {
 		{
 			title: "Project Description",
 			details:
-				"Usage of solar pumps by smallholder farmers in Telangana for irrigation",
+				"Usage of electric 3W cargo in Telangana for logistics",
 		},
 		{
 			title: "Project Category",
-			details: "Renewable Energy",
+			details: "Electric Mobility",
 		},
 		{
 			title: "Location",
@@ -20,7 +20,7 @@ const Projects = () => {
 		},
 		{
 			title: "Type",
-			details: "Solar Pumps",
+			details: "Electric 3W cargo",
 		},
 		{
 			title: "Authorized Project Contact",
@@ -91,7 +91,7 @@ const Projects = () => {
 	return (
 		<div>
 			<h2 className="text-[1.4375rem] lg:text-[2rem] font-semibold text-slate-500  drop-shadow-lg px-2">
-				Solar Pump medium scale project
+				Electric 3W cargo medium scale project
 			</h2>
 			<div className="divider -mt-[2px]"></div>
 			<div></div>
