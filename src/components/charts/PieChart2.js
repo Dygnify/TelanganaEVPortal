@@ -6,7 +6,7 @@ const PieChart2 = () => {
 		chart: {
 			type: "polarArea",
 		},
-		series: [420, 470, 520, 580, 650],
+		series: [4201, 4754, 5221, 5809, 6562],
 		colors: [
 			"#FF6384",
 			"#36A2EB",
@@ -27,7 +27,7 @@ const PieChart2 = () => {
 			opacity: 1,
 		},
 		title: {
-			text: "Categorywise Energy Production",
+			text: "Categorywise Electic Vehicles",
 			align: "center",
 			offsetY: 0,
 			offsetX: 0,
@@ -38,11 +38,11 @@ const PieChart2 = () => {
 			},
 		},
 		labels: [
-			"Solar Furnace",
-			"Household Solar rooftop",
-			"Solar Pump",
-			"Solar Street Lights",
-			"Industrial Solar Rooftop",
+			"E - Bus",
+			"E - Car",
+			"E3W - Passenger",
+			"E3W - Cargo",
+			"E2W - Personal",
 		],
 		stroke: {
 			width: 0.2,
@@ -67,7 +67,7 @@ const PieChart2 = () => {
 		tooltip: {
 			y: {
 				formatter: function (value) {
-					return value + " MW";
+					return value;
 				},
 			},
 		},

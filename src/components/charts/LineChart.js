@@ -55,26 +55,26 @@ const LineChart = () => {
 			},
 			series: [
 				{
-					name: "Industrial Solar Rooftop",
-					data: [15, 39, 52, 45, 39, 63],
+					name: "E2W - Cargo",
+					data: [151, 392, 522, 451, 305, 638],
 				},
 				{
-					name: "Solar Street Light",
-					data: [30, 33, 21, 42, 19, 32],
+					name: "E - Bus",
+					data: [303, 331, 219, 421, 416, 329],
 				},
 				{
 					name: "Others",
-					data: [10, 15, 26, 20, 33, 22],
+					data: [965, 1153, 1026, 1120, 1133, 1122],
 				}
 			],
 			title: {
-				text: "Daily Categorywise Energy Production",
+				text: "Daily Categorywise Green Run of EV",
 				align: "center",
 				offsetY: 0,
 				offsetX: 0,
 			},
 			subtitle: {
-				text: "(in MW)",
+				text: "(in km)",
 				offsetY: 68,
 				offsetX: -5,
 			},
@@ -93,12 +93,12 @@ const LineChart = () => {
 				},
 			},
 			labels: [
-				"15/03/2023",
-				"16/03/2023",
-				"17/03/2023",
-				"18/03/2023",
-				"19/03/2023",
-				"20/03/2023",
+				"15/05/2023",
+				"16/05/2023",
+				"17/05/2023",
+				"18/05/2023",
+				"19/05/2023",
+				"20/05/2023",
 			],
 			xaxis: {
 				tooltip: {
