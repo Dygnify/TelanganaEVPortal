@@ -27,13 +27,14 @@ const CollapsibleCard = ({ data }) => {
 					</p>
 				</div>
 			</div>
-
-			<div className="collapse-content">
-				<div className="flex gap-4">
-					<TripCard data={data}></TripCard>
-					<TripCard data={data}></TripCard>
+			{data.status === "Inactive"? "":
+				<div className="collapse-content">
+					<div className="flex gap-4">
+						<TripCard data={data}></TripCard>
+						<TripCard data={data}></TripCard>
+					</div>
 				</div>
-			</div>
+			}
 		</div>
 	);
 };

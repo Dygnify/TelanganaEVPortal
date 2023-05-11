@@ -9,60 +9,68 @@ import DeviceChart2 from "../../components/charts/DeviceCharts/DeviceChart2";
 const MyDevices = () => {
 	const dummyTable = [
 		{
-			time: "10/04/2023 01:12:00 PM",
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
 			unitName: "Unit 1",
-			energyProduced: "18.6KW",
-			totalEnergy: "198.3KW",
+			energyProduced: "36 km",
+			totalEnergy: "5.9 Kg",
 			status: "Active",
 		},
 		{
-			time: "09/04/2023 01:12:00 PM",
-			unitName: "Unit 1",
-			energyProduced: "19.1KW",
-			totalEnergy: "179.7KW",
-			status: "Active",
-		},
-		{
-			time: "08/04/2023 01:12:00 PM",
-			unitName: "Unit 1",
-			energyProduced: "16.9KW",
-			totalEnergy: "160.6KW",
-			status: "Active",
-		},
-		{
-			time: "07/04/2023 01:12:00 PM",
-			unitName: "Unit 1",
-			energyProduced: "17.2KW",
-			totalEnergy: "143.7KW",
-			status: "Active",
-		},
-		{
-			time: "06/04/2023 01:12:00 PM",
-			unitName: "Unit 1",
-			energyProduced: "14.3KW",
-			totalEnergy: "126.5KW",
-			status: "Active",
-		},
-		{
-			time: "10/04/2023 01:12:00 PM",
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
 			unitName: "Unit 2",
-			energyProduced: "0KW",
-			totalEnergy: "97KW",
+			energyProduced: "19.1 km",
+			totalEnergy: "3.1 Kg",
+			status: "Active",
+		},
+		{
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
+			unitName: "Unit 3",
+			energyProduced: "0 km",
+			totalEnergy: "0 Kg",
 			status: "Inactive",
 		},
 		{
-			time: "09/04/2023 01:12:00 PM",
-			unitName: "Unit 2",
-			energyProduced: "0KW",
-			totalEnergy: "97KW",
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
+			unitName: "Unit 4",
+			energyProduced: "27.2 km",
+			totalEnergy: "4.4 Kg",
+			status: "Active",
+		},
+		{
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
+			unitName: "Unit 5",
+			energyProduced: "14.3 km",
+			totalEnergy: "2.3 Kg",
+			status: "Active",
+		},
+		{
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
+			unitName: "Unit 6",
+			energyProduced: "0 km",
+			totalEnergy: "0 Kg",
 			status: "Inactive",
 		},
 		{
-			time: "08/04/2023 01:12:00 PM",
-			unitName: "Unit 2",
-			energyProduced: "0KW",
-			totalEnergy: "97KW",
-			status: "Inactive",
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
+			unitName: "Unit 7",
+			energyProduced: "40.3 km",
+			totalEnergy: "6.6 Kg",
+			status: "Active",
+		},
+		{
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
+			unitName: "Unit 8",
+			energyProduced: "20.5 km",
+			totalEnergy: "3.3 Kg",
+			status: "Active",
 		},
 	];
 	return (
@@ -84,10 +92,10 @@ const MyDevices = () => {
 						</h3>
 						<SiteLiveData />
 					</div>
-					<div className="mt-12 grid grid-cols-2 gap-4 p-2">
+					{/* <div className="mt-12 grid grid-cols-2 gap-4 p-2">
 						<DeviceChart1 />
 						<DeviceChart2 />
-					</div>
+					</div> */}
 					<Device dummyTable={dummyTable} />
 				</div>
 				<div className="w-full  rounded-md">
@@ -106,10 +114,10 @@ const MyDevices = () => {
 						</h3>
 						<SiteLiveData />
 					</div>
-					<div className="mt-12 grid grid-cols-2 gap-4 p-2">
+					{/* <div className="mt-12 grid grid-cols-2 gap-4 p-2">
 						<DeviceChart1 />
 						<DeviceChart2 />
-					</div>
+					</div> */}
 					<Device dummyTable={dummyTable} />
 				</div>
 			</section>

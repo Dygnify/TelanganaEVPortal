@@ -8,10 +8,10 @@ const Device = ({ dummyTable }) => {
 				<p className="w-1/3 md:w-3/12 my-auto ">Time/Date</p>
 				<p className=" md:block w-1/3 md:w-3/12 my-auto ">Unit Name</p>
 				<p className=" md:block w-1/3 md:w-2/12 my-auto ">
-					Energy Produced (Today)
+					Distance Traversed (Today)
 				</p>
 				<p className="w-1/3 md:w-2/12 my-auto ">
-					Energy Produced (Total)
+					GHG Emission Reduced (Total)
 				</p>
 				<p className=" md:block w-1/3 md:w-2/12 my-auto ">Status</p>
 			</div>

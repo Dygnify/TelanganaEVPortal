@@ -11,7 +11,7 @@ const StackedColumnChart = () => {
 			},
 		},
 		xaxis: {
-			categories: ["Column 1", "Column 2"],
+			categories: ["Charging", "Battery Swapping"],
 		},
 		plotOptions: {
 			bar: {
@@ -21,6 +21,17 @@ const StackedColumnChart = () => {
 		},
 		fill: {
 			opacity: 1,
+		},
+		title: {
+			text: "EV Charging Infrastructure",
+			align: "center",
+			offsetY: 0,
+			offsetX: 0,
+			style: {
+				fontSize: "16px",
+				fontWeight: "bold",
+				color: "#535A6C",
+			},
 		},
 		legend: {
 			position: "top",
@@ -45,12 +56,12 @@ const StackedColumnChart = () => {
 
 	const series = [
 		{
-			name: "Series 1",
-			data: [50, 70],
+			name: "Grid Energy",
+			data: [134, 34],
 		},
 		{
-			name: "Series 2",
-			data: [30, 50],
+			name: "Renewable Energy",
+			data: [45, 6],
 		},
 	];
 
