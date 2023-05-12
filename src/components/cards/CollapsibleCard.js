@@ -2,6 +2,28 @@ import React from "react";
 import TripCard from "./TripCard";
 
 const CollapsibleCard = ({ data }) => {
+	const collapsibleCardData = [
+		{
+			...data,
+		},
+		{
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
+			unitName: "Unit 5",
+			energyProduced: "14.3 km",
+			totalEnergy: "2.3 Kg",
+		},
+		{
+			time: "15/05/2023 01:12:00 PM",
+			endtime: "15/05/2023 02:05:00 PM",
+			unitName: "Unit 5",
+			energyProduced: "14.3 km",
+			totalEnergy: "2.3 Kg",
+		},
+		
+	];
+
+	const inactiveStatus = (data.status === "Inactive");
 	return (
 		<div className="collapse collapse-arrow mt-2 bg-[#e2e7fc46] rounded-md box-shadow5 my-table-row border border-[#e9e5fd] hover:border-[#e1dcfa] ">
 			<input type="checkbox" className="peer" />
@@ -27,14 +49,15 @@ const CollapsibleCard = ({ data }) => {
 					</p>
 				</div>
 			</div>
-			{data.status === "Inactive"? "":
+			{inactiveStatus ? null : (
 				<div className="collapse-content">
-					<div className="flex gap-4">
-						<TripCard data={data}></TripCard>
-						<TripCard data={data}></TripCard>
+					<div className="grid grid-cols-2 gap-4">
+						{collapsibleCardData.map((data, i) => (
+							<TripCard key={i} data={data} />
+						))}
 					</div>
 				</div>
-			}
+			)}
 		</div>
 	);
 };
