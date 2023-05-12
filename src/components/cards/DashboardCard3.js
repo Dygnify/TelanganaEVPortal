@@ -6,7 +6,7 @@ import iconImg3 from "../../images/co2 reduction.png";
 import iconImg4 from "../../images/Sustainability Score.png";
 
 const demoInfo = [
-	{ text: "Distance traversed", energy: "24300 km", img: iconImg },
+	{ text: "Distance traversed", energy: "24,300 km", img: iconImg },
 	{ text: "Energy consumed", energy: "82 KW", img: iconImg2 },
 	{ text: "GHG emissions reduced", energy: "231 t", img: iconImg3 },
 	{ text: "Sustainability score", energy: "96 GS", img: iconImg4 },

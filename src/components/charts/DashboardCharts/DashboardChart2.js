@@ -98,7 +98,7 @@ const getTotalEnergyProduced = () => {
 			<div className="absolute top-[10px] left-[12px] font-semibold text-xl text-font-semibold text-slate-500 drop-shadow-lg flex flex-col gap-4">
 				<p>GHG emissions prevented</p>
 				<p className="text-[#008000] text-[32px] font-bold flex justify-center -mt-1">
-					{getTotalEnergyProduced()} t
+					{getTotalEnergyProduced().toFixed(1)} t
 				</p>
 			</div>
 		</div>

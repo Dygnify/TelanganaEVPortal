@@ -99,7 +99,7 @@ const DashboardChart1 = () => {
 			<div className="absolute top-[10px] left-[12px] font-semibold text-xl text-font-semibold text-slate-500 drop-shadow-lg flex flex-col gap-4">
 				<p>Green km run</p>
 				<p className="text-[#04796f] text-[32px] font-bold flex justify-center -mt-1">
-					{getTotalEnergyProduced()}
+					{getTotalEnergyProduced().toLocaleString('en-IN')}
 				</p>
 			</div>
 		</div>

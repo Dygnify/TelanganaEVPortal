@@ -82,13 +82,13 @@ const MyDevices = () => {
 					</h2>
 					<div className="mt-4">
 						<h3 className="font-semibold text-xl text-slate-500  drop-shadow-lg px-2 text-center">
-							Site Configuration Details
+						3W - Cargo Configuration Details
 						</h3>
 						<SiteConfig />
 					</div>
 					<div className="mt-8">
 						<h3 className="font-semibold text-xl text-slate-500  drop-shadow-lg px-2 text-center">
-							Site Live Data
+						3W - Cargo Live Data
 						</h3>
 						<SiteLiveData />
 					</div>
@@ -104,13 +104,13 @@ const MyDevices = () => {
 					</h2>
 					<div className="mt-4">
 						<h3 className="font-semibold text-xl text-slate-500  drop-shadow-lg px-2 text-center">
-							Site Configuration Details
+						3W - Passenger Configuration Details
 						</h3>
 						<SiteConfig />
 					</div>
 					<div className="mt-8">
 						<h3 className="font-semibold text-xl text-slate-500  drop-shadow-lg px-2 text-center">
-							Site Live Data
+						3W - Passenger Live Data
 						</h3>
 						<SiteLiveData />
 					</div>

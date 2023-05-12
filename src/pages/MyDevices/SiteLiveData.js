@@ -17,7 +17,7 @@ const SiteLiveData = () => {
 					/>
 				</div>
 				<div className="flex flex-col  text-right">
-					<span>Daily Green Km</span>
+					<span>Daily green km</span>
 					<span>348 km</span>
 				</div>
 			</div>
@@ -30,7 +30,7 @@ const SiteLiveData = () => {
 					/>
 				</div>
 				<div className="flex flex-col  text-right">
-					<span>Total Energy</span>
+					<span>Total energy</span>
 					<span>33.2230 kWh</span>
 				</div>
 			</div>
@@ -53,7 +53,7 @@ const SiteLiveData = () => {
 				</div>
 				<div className="flex flex-col  text-right">
 					<span>Range available</span>
-					<span>163 km</span>
+					<span>363 km</span>
 				</div>
 			</div>
 			<div className="flex justify-between rounded-[5px] py-2 px-1 bg-[#F3FFFE]  box-shadow6    w-2/12">
@@ -65,7 +65,7 @@ const SiteLiveData = () => {
 					/>
 				</div>
 				<div className="flex flex-col  text-right">
-					<span>BCNC</span>
+					<span>Charge compliance</span>
 					<span>93 %</span>
 				</div>
 			</div>
