@@ -67,7 +67,7 @@ const PieChart2 = () => {
 		tooltip: {
 			y: {
 				formatter: function (value) {
-					return value;
+					return value.toLocaleString('en-IN');
 				},
 			},
 		},

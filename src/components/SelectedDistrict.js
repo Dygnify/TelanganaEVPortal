@@ -28,13 +28,13 @@ const SelectedDistrict = ({ district, energy, ev }) => {
 							/>
 						</div>
 						<p className="text-2xl text-[#ff9100ef] drop-shadow-lg p-[5px]">
-							{ev}
+							{ev.toLocaleString('en-IN')}
 						</p>
 					</div>
 				</div>
 				<div className=" w-5/6 p-2 rounded-md gradient-right  box-shadow5">
 					<p className="text-sm text-center font-semibold text-slate-500">
-						Distance Traversed
+						Green km Traversed
 					</p>
 					<div className="flex items-center mt-2 gap-6 p-2  rounded-[100px] mx-4 gradient-right border border-slate-100">
 						<div className="w-16 h-16 border border-[#FE9710] rounded-full p-[2px]">
@@ -45,7 +45,7 @@ const SelectedDistrict = ({ district, energy, ev }) => {
 							/>
 						</div>
 						<p className="text-2xl text-[#ff9100ef] drop-shadow-lg">
-							{energy} km
+							{energy.toLocaleString('en-IN')} km
 						</p>
 					</div>
 				</div>
@@ -62,7 +62,7 @@ const SelectedDistrict = ({ district, energy, ev }) => {
 							/>
 						</div>
 						<p className="text-2xl text-[#ff9100ef] drop-shadow-lg">
-							{(energy * 0.000165).toFixed(0)} t
+							{parseInt(energy * 0.000165).toLocaleString('en-IN')} t
 						</p>
 					</div>
 				</div>
