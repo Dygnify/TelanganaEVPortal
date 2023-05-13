@@ -16,7 +16,7 @@ const TripCard = ({ data }) => {
 				<p>{data.energyProduced}</p>
 			</div>
 			<div className="p-2">
-				<h4 className="font-semibold">Trip Duration</h4>
+				<h4 className="font-semibold">GHG Emission Reduced</h4>
 				<p>{data.totalEnergy}</p>
 			</div>
 		</div>
