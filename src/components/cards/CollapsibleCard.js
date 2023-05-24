@@ -7,20 +7,11 @@ const CollapsibleCard = ({ data }) => {
 			...data,
 		},
 		{
-			time: "15/05/2023 01:12:00 PM",
-			endtime: "15/05/2023 02:05:00 PM",
-			unitName: "Unit 5",
-			energyProduced: "14.3 km",
-			totalEnergy: "2.3 Kg",
-		},
-		{
-			time: "15/05/2023 01:12:00 PM",
-			endtime: "15/05/2023 02:05:00 PM",
-			unitName: "Unit 5",
-			energyProduced: "14.3 km",
-			totalEnergy: "2.3 Kg",
-		},
-		
+			time: "14/05/2023 10:12:00 AM",
+			endtime: "14/05/2023 10:45:00 AM",
+			energyProduced: "24.3 km",
+			totalEnergy: "4 Kg",
+		}
 	];
 
 	const inactiveStatus = (data.status === "Inactive");
