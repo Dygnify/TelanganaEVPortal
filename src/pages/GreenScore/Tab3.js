@@ -5,12 +5,12 @@ import ConfigureTable from "./ConfigureTable";
 import { useOutletContext } from "react-router-dom";
 import parse from "html-react-parser";
 const demoInfo = [
-  { text: "The  region is <b>vulnerable to Drought and Heatwaves</b>." },
+  { text: "The  region is <b>vulnerable to Floods and Cyclones</b>." },
   {
-    text: "As per IMD data the region was <b>affected with moderate to severe drought for 3 out of the last 10 years</b>.",
+    text: "As per IMD data <b>the average annual flood depth</b> in the region has increased by <b>1.5 meters</b> over the past decade.",
   },
   {
-    text: "As per IMD data  the region was <b>affected with Heatwaves for 7 years out of the past 10 years</b>.",
+    text: "As per IMD data  the region has experienced an <b>average of 3.5 severe cyclones per year over the past five years</b>, compared to an <b>average of 1.2 cyclones per year</b> recorded in <b>the previous decade</b>.",
   },
 ];
 const tableData = [
@@ -24,16 +24,16 @@ const tableData = [
   {
     id: 2,
     parameter: "Drought",
-    value: 84,
-    weightage: 50,
-    score: 42,
+    value: 0,
+    weightage: 0,
+    score: 0,
   },
   {
     id: 3,
     parameter: "Floods",
-    value: 0,
-    weightage: 0,
-    score: 0,
+    value: 480,
+    weightage: 50,
+    score: 240,
   },
   {
     id: 4,
@@ -45,9 +45,9 @@ const tableData = [
   {
     id: 5,
     parameter: "Cyclones",
-    value: 0,
-    weightage: 0,
-    score: 0,
+    value: 84,
+    weightage: 50,
+    score: 42,
   },
   {
     id: 6,
@@ -59,9 +59,9 @@ const tableData = [
   {
     id: 7,
     parameter: "Heat wave",
-    value: 480,
-    weightage: 50,
-    score: 240,
+    value: 0,
+    weightage: 0,
+    score: 0,
   },
   {
     id: 8,

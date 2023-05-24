@@ -15,16 +15,15 @@ const demoInfo = [
 const tableData = [
   {
     id: 1,
-    parameter: "PM Kusum yojana outlay increased",
-    value: 800,
+    parameter: "Non renewal of FAME II subsidy",
+    value: 500,
     weightage: 25,
     score: 225,
   },
   {
     id: 2,
-    parameter:
-      "Government provides tax credits to offset a portion of the installation costs for solar panels.",
-    value: 750,
+    parameter: "Additional Licensing requirement for commercial EV.",
+    value: 450,
     weightage: 25,
     score: 225,
   },

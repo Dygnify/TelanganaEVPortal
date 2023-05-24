@@ -7,13 +7,14 @@ import Loader from "../../components/Loader/Loader";
 import parse from "html-react-parser";
 import sdgImg1 from "../../images/SDG7.png";
 import sdgImg2 from "../../images/SDG13.png";
+import sdgImg3 from "../../images/SDG9.png";
 
 const demoInfo = [
   {
     text: "The Project has <b>met 80% of its targeted emission reduction</b> which is <b>in line</b> with <b>projects of similar size</b> in the region.",
   },
   {
-    text: "The development of the project focuses on two <b>SDG goals. i.e  7 & 13</b>",
+    text: "The development of the project focuses on two <b>SDG goals. i.e  7, 9 & 13</b>",
   },
 ];
 const tableData = [
@@ -64,45 +65,49 @@ const Tab1 = () => {
                                         fa-hand-point-right
 										mr-2
                                     "
-									></i>
-									{parse(item.text)}
-								</p>
-							</div>
-						))}
-						<div className="flex justify-center gap-4">
-							<img
-								src={sdgImg1}
-								className="w-[15%] img-border hover:scale-[1.15] transition ease-in-out duration-500 "
-								alt=""
-							/>
-
-							<img
-								src={sdgImg2}
-								className="w-[15%] img-border hover:scale-[1.15] transition ease-in-out duration-500 "
-								alt=""
-							/>
-						</div>
-					</div>
-					<div className="relative w-[40%]">
-						<div
-							className={`${
-								isLoader && "blur-md"
-							}  flex justify-center p-[2px]  rounded-lg  hover:scale-[1.06] transition ease-in-out duration-700 box-shadow4 bg-[#fffffe]`}
-						>
-							<MyGaugeChart totalScore={totalScore} />
-						</div>
-						{/* {isLoader && <Loader />} */}
-					</div>
-				</div>
-			</div>
-			<ConfigureTable
-				tableData={tableData}
-				setTotalScore={setTotalScore}
-				setFinalScore={setFinalScore}
-				tab={"tab1"}
-			/>
-		</div>
-	);
+                  ></i>
+                  {parse(item.text)}
+                </p>
+              </div>
+            ))}
+            <div className="flex justify-center gap-4">
+              <img
+                src={sdgImg1}
+                className="w-[15%] img-border hover:scale-[1.15] transition ease-in-out duration-500 "
+                alt=""
+              />
+              <img
+                src={sdgImg3}
+                className="w-[15%] img-border hover:scale-[1.15] transition ease-in-out duration-500 "
+                alt=""
+              />
+              <img
+                src={sdgImg2}
+                className="w-[15%] img-border hover:scale-[1.15] transition ease-in-out duration-500 "
+                alt=""
+              />
+            </div>
+          </div>
+          <div className="relative w-[40%]">
+            <div
+              className={`${
+                isLoader && "blur-md"
+              }  flex justify-center p-[2px]  rounded-lg  hover:scale-[1.06] transition ease-in-out duration-700 box-shadow4 bg-[#fffffe]`}
+            >
+              <MyGaugeChart totalScore={totalScore} />
+            </div>
+            {/* {isLoader && <Loader />} */}
+          </div>
+        </div>
+      </div>
+      <ConfigureTable
+        tableData={tableData}
+        setTotalScore={setTotalScore}
+        setFinalScore={setFinalScore}
+        tab={"tab1"}
+      />
+    </div>
+  );
 };
 
 export default Tab1;
