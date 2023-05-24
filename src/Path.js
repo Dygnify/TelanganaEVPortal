@@ -8,6 +8,12 @@ import Search from "./pages/Search/Search";
 import SignIn from "./pages/Sign In/SignIn";
 import MyDevices from "./pages/MyDevices/MyDevices";
 import Projects from "./pages/Projects/Projects";
+import GreenScore from "./pages/GreenScore/GreenScore";
+import Tab1 from "./pages/GreenScore/Tab1";
+import Tab2 from "./pages/GreenScore/Tab2";
+import Tab3 from "./pages/GreenScore/Tab3";
+import Tab4 from "./pages/GreenScore/Tab4";
+import Tab5 from "./pages/GreenScore/Tab5";
 
 const Paths = () => {
 	return (
@@ -18,6 +24,14 @@ const Paths = () => {
 					<Route path="home" element={<LandingPage />} />
 					<Route path="search" element={<Search />} />
 					<Route path="analytic" element={<Analytic />} />
+					<Route path="greenScore" element={<GreenScore />}>
+						<Route index element={<Navigate to="tab1" />} />
+						<Route path="tab1" element={<Tab1 />} />
+						<Route path="tab2" element={<Tab2 />} />
+						<Route path="tab3" element={<Tab3 />} />
+						<Route path="tab4" element={<Tab4 />} />
+						<Route path="tab5" element={<Tab5 />} />
+					</Route>
 					<Route path="projects" element={<Projects />} />
 					<Route path="myEVs" element={<MyDevices />} />
 					<Route path="profile" element={<Profile />} />

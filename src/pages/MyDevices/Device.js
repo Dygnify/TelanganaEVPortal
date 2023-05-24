@@ -15,7 +15,7 @@ const Device = ({ dummyTable }) => {
 				</p>
 				<p className=" md:block w-1/3 md:w-2/12 my-auto ">Status</p>
 			</div>
-			<div className="max-h-[350px] overflow-auto">
+			<div className="max-h-[450px] overflow-auto">
 				<div className="flex flex-col p-1 pt-0 pb-4 rounded-xl my-5 gap-4  border border-[#d3e1f5a9] ">
 					{dummyTable.map((data, i) => (
 						<CollapsibleCard key={i} data={data} />
